@@ -1,9 +1,9 @@
 :root {
     --text: #fff;
-    --bg: #fdbee1;
+    --bg: #c99f87;
     --lblue: ##011C6B;
-    --lred: #ffacea;
-    --font: "Google Sans"
+    --lred: #fac282;
+    --font: "Google fonts"
 
 
 }
@@ -28,7 +28,7 @@ nav {
     width: 100%;
     position: fixed;
     top: 0;
-    background-color: #ffa8db;
+    background-color: #99674f;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -37,7 +37,7 @@ nav {
     z-index: 999;
     animation: decimo 1s ease-in-out;
     transition: all 1s ease-in-out;
-    color: rgb(170, 4, 101);
+    color: rgb(255, 253, 243);
 }
 
 a {
@@ -48,6 +48,7 @@ a {
     opacity: 0.8;
     transition: all 200ms linear;
     font-weight: 700;
+    font-family: "Playfair Display", serif; 
 
 }
 
@@ -56,13 +57,8 @@ a:hover {
     text-shadow: 0px 3px 10px var(--text);
 }
 
-section {
-    min-height: 100vh;
-    height: auto;
-}
-
 #s1 {
-    background-image: url('../assets/icons/rare-beauty.png');
+    background-image: url('../assets/icons/rare\ 02.webp');
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
